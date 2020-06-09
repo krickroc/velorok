@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.main-nav ul {
+    background: #100e17;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+}
+
+.main-nav li a {
+    color: #fff;
+    display: block;
+    border-right: 1px solid #444;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.main-nav li:first-child a {
+    border-left: 1px solid #444;
+}
+
+.main-nav li a:hover {
+    background: #312d3c;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel {
+    width: 500px;
+}
+
+.travel-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 400px;
+    justify-content: space-between;
+    background: #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.travel-list-item .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.travel-list-item .content .vote {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    width: 150px;
+}
