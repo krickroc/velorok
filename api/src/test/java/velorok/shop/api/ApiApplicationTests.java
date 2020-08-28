@@ -1,10 +1,10 @@
-package velorok.api;
+package velorok.shop.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class VelorokApiApplicationTests {
+class ApiApplicationTests {
 
 	@Test
 	void contextLoads() {
